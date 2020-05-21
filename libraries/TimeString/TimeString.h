@@ -1,6 +1,6 @@
 /*
   TimeString.h - Library for creating TimeStrings.
-  Created by Thorsten Herrmann, 2020.
+  Author: Wingthor1968, 2020.
 */
 
 #ifndef TimeString_h
