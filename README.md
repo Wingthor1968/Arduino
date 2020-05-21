@@ -1,4 +1,8 @@
 # Arduino
 My Arduino projects
 
-The code is provided as is. Use it at your own risk. It is definitly not production grade code. The author/s is/are not liable for any damage it may create.
+## library
+library contains a library with helper functions to format time strings
+
+## ESP8266
+A collection of sketches for the ESP8266
