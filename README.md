@@ -1,8 +1,11 @@
 # Arduino
-My Arduino projects
+My Arduino projects.
 
-## library
-library contains a library with helper functions to format time strings
+## libraries
+A collection of libraries.
+
+### TimeString
+TimeString contains helper functions to format time strings.
 
 ## ESP8266
-A collection of sketches for the ESP8266
+A collection of sketches for the ESP8266.
