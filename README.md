@@ -1,4 +1,11 @@
 # Arduino
-My Arduino projects
+My Arduino projects.
 
-The code is provided as is. Use it at your own risk. It is definitly not production grade code. The author/s is/are not liable for any damage it may create.
+## libraries
+A collection of libraries.
+
+### TimeString
+TimeString contains helper functions to format time strings.
+
+## ESP8266
+A collection of sketches for the ESP8266.
