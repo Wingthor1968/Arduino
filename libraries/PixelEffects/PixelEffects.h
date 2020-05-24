@@ -15,8 +15,8 @@ class PixelEffects
 {
   public:
     PixelEffects(Adafruit_NeoPixel pixels, unsigned int pixelcount);
-    void sunrise(unsigned long totaltime);
-    void sunset(unsigned long totaltime);
+    void curtain_open(unsigned long totaltime);
+    void curtain_close(unsigned long totaltime);
   private:
     unsigned int _pixelcount;
 	Adafruit_NeoPixel _pixels;

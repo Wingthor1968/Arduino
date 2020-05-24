@@ -20,7 +20,7 @@ PixelEffects::PixelEffects(Adafruit_NeoPixel pixels, unsigned int pixelcount) {
 /***
 * Light up the Pixels from the middle to the outer ones. After <totaltime> all Pixels are turned on.
 ***/
-void PixelEffects::sunrise(unsigned long totaltime) {
+void PixelEffects::curtain_open(unsigned long totaltime) {
   int offset = _pixelcount / 2;
   int delaymillis = totaltime / offset;
   for (int i = 1; i <= offset; i++) {
@@ -35,7 +35,7 @@ void PixelEffects::sunrise(unsigned long totaltime) {
 /***
  * Turn off the Pixels from the outer to the middle ones. After <totaltime> all Pixels are turned off.
  */
-void PixelEffects::sunset(unsigned long totaltime) {
+void PixelEffects::curtain_close(unsigned long totaltime) {
   int delaymillis = totaltime / (_pixelcount / 2);
   for (int i = 0; i < _pixelcount / 2; i++) {
     _pixels.setPixelColor(i, _pixels.Color(0, 0, 0));

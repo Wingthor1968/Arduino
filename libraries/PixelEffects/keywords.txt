@@ -1,0 +1,3 @@
+PixelEffects 	KEYWORD1
+curtain_open	KEYWORD2
+curtain_close	KEYWORD2
